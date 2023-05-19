@@ -16,6 +16,7 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
 import { ExemploServico1Component } from './exemplo-servico1/exemplo-servico1.component';
 import { ExemploServico2Component } from './exemplo-servico2/exemplo-servico2.component';
 import { CicloVidaComponent } from './ciclo-vida/ciclo-vida.component';
+import { CicloVidaPaiComponent } from './ciclo-vida-pai/ciclo-vida-pai.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { CicloVidaComponent } from './ciclo-vida/ciclo-vida.component';
     ExemploServico1Component,
     ExemploServico2Component,
     CicloVidaComponent,
+    CicloVidaPaiComponent,
   ],
   imports: [
     BrowserModule,
